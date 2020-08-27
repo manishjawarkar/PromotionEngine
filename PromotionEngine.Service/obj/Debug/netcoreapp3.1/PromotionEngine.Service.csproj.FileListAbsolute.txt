@@ -1,0 +1,14 @@
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Service.deps.json
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Service.dll
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Service.pdb
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Interface.dll
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Model.dll
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Interface.pdb
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\bin\Debug\netcoreapp3.1\PromotionEngine.Model.pdb
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.csprojAssemblyReference.cache
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.AssemblyInfoInputs.cache
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.AssemblyInfo.cs
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.csproj.CoreCompileInputs.cache
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.csproj.CopyComplete
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.dll
+E:\PromotionEngine\PromotionEngine\PromotionEngine.Service\obj\Debug\netcoreapp3.1\PromotionEngine.Service.pdb

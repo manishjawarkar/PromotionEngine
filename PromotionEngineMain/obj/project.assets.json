@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PromotionEngine.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PromotionEngine.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PromotionEngine.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionEngine.Interface.dll": {}
+        }
+      },
+      "PromotionEngine.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PromotionEngine.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionEngine.Model.dll": {}
+        }
+      },
+      "PromotionEngine.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PromotionEngine.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PromotionEngine.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionEngine.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PromotionEngine.Interface/1.0.0": {
+      "type": "project",
+      "path": "../PromotionEngine.Interface/PromotionEngine.Interface.csproj",
+      "msbuildProject": "../PromotionEngine.Interface/PromotionEngine.Interface.csproj"
+    },
+    "PromotionEngine.Model/1.0.0": {
+      "type": "project",
+      "path": "../PromotionEngine.Model/PromotionEngine.Model.csproj",
+      "msbuildProject": "../PromotionEngine.Model/PromotionEngine.Model.csproj"
+    },
+    "PromotionEngine.Service/1.0.0": {
+      "type": "project",
+      "path": "../PromotionEngine.Service/PromotionEngine.Service.csproj",
+      "msbuildProject": "../PromotionEngine.Service/PromotionEngine.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PromotionEngine.Model >= 1.0.0",
+      "PromotionEngine.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Manish Jawarkar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\PromotionEngine\\PromotionEngine\\PromotionEngineMain\\PromotionEngineMain.csproj",
+      "projectName": "PromotionEngineMain",
+      "projectPath": "E:\\PromotionEngine\\PromotionEngine\\PromotionEngineMain\\PromotionEngineMain.csproj",
+      "packagesPath": "C:\\Users\\Manish Jawarkar\\.nuget\\packages\\",
+      "outputPath": "E:\\PromotionEngine\\PromotionEngine\\PromotionEngineMain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Manish Jawarkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "E:\\PromotionEngine\\PromotionEngine\\PromotionEngine.Model\\PromotionEngine.Model.csproj": {
+              "projectPath": "E:\\PromotionEngine\\PromotionEngine\\PromotionEngine.Model\\PromotionEngine.Model.csproj"
+            },
+            "E:\\PromotionEngine\\PromotionEngine\\PromotionEngine.Service\\PromotionEngine.Service.csproj": {
+              "projectPath": "E:\\PromotionEngine\\PromotionEngine\\PromotionEngine.Service\\PromotionEngine.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PromotionEngine.Service/1.0.0": {
+        "dependencies": {
+          "PromotionEngine.Interface": "1.0.0"
+        },
+        "runtime": {
+          "PromotionEngine.Service.dll": {}
+        }
+      },
+      "PromotionEngine.Interface/1.0.0": {
+        "dependencies": {
+          "PromotionEngine.Model": "1.0.0"
+        },
+        "runtime": {
+          "PromotionEngine.Interface.dll": {}
+        }
+      },
+      "PromotionEngine.Model/1.0.0": {
+        "runtime": {
+          "PromotionEngine.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PromotionEngine.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PromotionEngine.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PromotionEngine.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
